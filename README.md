@@ -47,8 +47,8 @@ Note: you need to have 2 pc or a virtual machine to run ubuntu (ROS) and grassho
 ## Credits
 Autonomous-navigation // HARDWARE II is a project of IAAC, Institute for Advanced Architecture of Catalonia developed at the Master in Robotics and Advanced Construction in 2020/2021 by:
 
-Students: Shahar Abelson, Charng Shin Chen, Arpan Mathe, Orestis Pavlidis/
-Faculty: Carlos Rizzo/
-Faculty Assistant: Soroush Garivani/
+Students: Shahar Abelson, Charng Shin Chen, Arpan Mathe, Orestis Pavlidis //
+Faculty: Carlos Rizzo //
+Faculty Assistant: Soroush Garivani //
 
 
