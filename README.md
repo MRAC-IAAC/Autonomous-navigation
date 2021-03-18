@@ -44,4 +44,10 @@ Note: you need to have 2 pc or a virtual machine to run ubuntu (ROS) and grassho
 8. when you are ready with all the setup. select the bebop_position_controller.py and you can take off with "T". once the drone takes off it can be set to navigation mode using "N". when navigation mode is activated, the drone will start the trajectory and will return to its starts positiion. 
 9. to inturrupt the process at anytime, you can press "L" to land. 
 
+10.credits
+SOFT ROBOTIC GRIPPER // HARDWARE I is a project of IAAC, Institute for Advanced Architecture of Catalonia developed at the Master in Robotics and Advanced Construction in 2020/2021 by:
+
+Students: Shahar Abelson, Charng Shin Chen, Arpan Mathe, Orestis Pavlidis
+Faculty: Carlos Rizzo
+Faculty Assistant: Soroush Garivani 
 
