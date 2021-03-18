@@ -6,7 +6,7 @@ Please note that this still a WIP.
 
 ## Hardware and softwares used : PARROT AR DRONE
 Parrot Bebop2 drone was used for this project along with ROS, Bebop_autonomy & ORB_SLAM2 
-![alt text](Images\HardwareUsed.jpg "Hardware Used")
+![alt text](https://github.com/MRAC-IAAC/Autonomous-navigation/blob/main/Images/HardwareUsed.JPG "Hardware Used")
 
 ## Software Diagram and algorithm
 The process involves using ORB_SLAM2 with ROS in order to create the point clouds in real time. We created a python script which reads the point clouds in real time. 
