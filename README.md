@@ -2,7 +2,7 @@
 To explore more potentials of ROS and how ROS can play important role in converting  a normal drone to a mapping drone. the same is applicable to UGV and other robots. ORB_SLAM was used to generate point clouds  in real time using a monocular camera. This has capability of loop closure, map saving and using same map to improve the quality of point cloud/model. The final goal of the project is to create a autnomous photogrammetry with ROS.
 Please note that this still a WIP. 
 
-![alt text](Images\main.jpg "Autonomous Navigation")
+![alt text](https://github.com/MRAC-IAAC/Autonomous-navigation/blob/main/Images/main.jpg "Autonomous Navigation")
 
 ## Hardware and softwares used : PARROT AR DRONE
 Parrot Bebop2 drone was used for this project along with ROS, Bebop_autonomy & ORB_SLAM2 
@@ -13,22 +13,22 @@ The process involves using ORB_SLAM2 with ROS in order to create the point cloud
 ROS is connected with grasshopper and the python scripts, which can subscribe to the topics published by python scripts and ROS/ORB_SLAM2. As a reault of which we can visualize the point cloud in grasshopper in real time. 
 A small part of the area is manually scanned and trajectory is generated using grasshopper, so that the process can start. Once the drone takes off on the trajectory, the algorithm can process on itself in real time and the trajectory keep on generating automatically(ROS, ORB_SLAM2 & Grasshopper communicated continuously)
 
-![alt text](Images\Softwareprocess.png "Software Proces")
+![alt text](https://github.com/MRAC-IAAC/Autonomous-navigation/blob/main/Images/Softwareprocess.png "Software Proces")
 
 ### How does the point cloud grabber works? 
 There are 2 python scripts, one reads the point clouds in real time and saves them to a csv files. Another scripts can read the point cloud data saved by the first scripts in order to visualize them in 3d
 
-![alt text](Images\Softwareprocess2.jpg "Software Proces")
+![alt text](https://github.com/MRAC-IAAC/Autonomous-navigation/blob/main/Images/Softwareprocess2.JPG "Software Proces")
 
 ### The first Manual point cloud extraction process? 
 rosbag is saved from ROS+bebop2 in the computer and point clouds are extracted using the process mentioned above(using the point grabber scripts)
 
-![alt text](Images\orbpoints.jpg "Software Proces")
+![alt text](https://github.com/MRAC-IAAC/Autonomous-navigation/blob/main/Images/orbpoints.JPG "Software Proces")
 
 Further to above the point clouds are extracted in grasshopper and cleaned with the target area where the trajectory has to be initiated. 
 The trajectory is then generataed using the points cloud locations (reference image below)
 
-![alt text](Images\orbpoints3.jpg "Software Proces")
+![alt text](https://github.com/MRAC-IAAC/Autonomous-navigation/blob/main/Images/orbpoints3.JPG "Software Proces")
 
 Once the trajectory is genrated, the drone can be connected through ROS and grasshopper and the projeccs is ready to be initiated. 
 
